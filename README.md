@@ -13,3 +13,4 @@ General information
  - Only contains dependencies for and tested with USE="-wayland"
  - Updated games not (yet) included
  - Portions taken from the Heather Gnome overlay
+ - ebuilds derived from the 3.22/24 official Gentoo portage ebuilds
