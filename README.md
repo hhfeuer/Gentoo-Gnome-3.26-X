@@ -26,7 +26,7 @@ Create a `/etc/portage/repos.conf/Gnome-3.16-X.conf` file containing
 [Gnome-3.26-X]
 location = /usr/local/portage/Gnome-3.26-X
 sync-type = git
-sync-uri = https://hhfeuer@github.com/hhfeuer/Gentoo-Gnome-3.26-X.git
+sync-uri = https://github.com/hhfeuer/Gentoo-Gnome-3.26-X.git
 priority=9999
 ```
 
