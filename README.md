@@ -37,24 +37,29 @@ Then run emerge --sync
 Add via layman:
 
 	layman -o https://raw.github.com/hhfeuer/Gentoo-Gnome-3.26-X/master/repositories.xml -f -a Gnome-3-26-X
-	Then run layman -s Gnome-3-26-X
+
+Then run layman -s Gnome-3-26-X
 
 Quirks
 ------
-needs package.unmask
+needs package.unmask:
+
 	=app-text/libgepub-0.5.2
 
-needs package.keywords/accept_keywords
+needs package.keywords/accept_keywords:
+
 	=app-text/libgepub-0.5.2 ~amd64
 	=media-plugins/grilo-plugins-0.3.5 ~amd64
 
-due to bug in folks needs package.use
+due to bug in folks needs package.use:
+
 	dev-libs/folks -tracker
 
-depending on kernel config might need package.use
+depending on kernel config might need package.use:
+
 	sys-apps/bubblewrap suid
 
-if portage is complaining about blocks concerning glib and gdbus-codegen, run first
+if portage is complaining about blocks concerning glib and gdbus-codegen, run first:
 	emerge -1 glib gdbus-codegen
 
 
