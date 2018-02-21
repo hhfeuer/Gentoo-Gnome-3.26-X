@@ -60,6 +60,7 @@ depending on kernel config might need package.use:
 	sys-apps/bubblewrap suid
 
 if portage is complaining about blocks concerning glib and gdbus-codegen, run first:
+
 	emerge -1 glib gdbus-codegen
 
 
