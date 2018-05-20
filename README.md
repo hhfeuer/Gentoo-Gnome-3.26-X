@@ -5,6 +5,8 @@ Versions
 --------
 
  - Gnome 3.26 (stable)
+ - For Gnome 3.28 see repository Gentoo-Gnome-3.28-X
+
 
 General information
 -------------------
