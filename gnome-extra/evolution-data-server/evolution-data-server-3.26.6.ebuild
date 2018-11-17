@@ -83,6 +83,7 @@ pkg_setup() {
 }
 
 src_prepare() {
+	eapply "${FILESDIR}"/icu61-compat.patch
 	use vala && vala_src_prepare
 	gnome2_src_prepare
 
